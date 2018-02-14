@@ -51,11 +51,9 @@ class IFLA_Test:
             browserSite.get(url)
             browser.find_element_by_xpath('//*[@name="ctl00$ContentPlaceHolder1$cboPageSize"]/option[contains(text(), "All")]').click()
             
-            
-#            time.sleep(4)
-#            print("Wait 4 seconds after select")
-#            hyperlinks = browser.find_elements_by_css_selector("div.boxinside a")
-#            techResults = self.find_intial_links(hyperlinks)
+
+           hyperlinks = browser.find_elements_by_css_selector("div.boxinside a")
+           techResults = self.find_intial_links(hyperlinks)
 
 
 
