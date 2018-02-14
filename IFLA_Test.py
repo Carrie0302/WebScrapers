@@ -23,7 +23,6 @@ class IFLA_Test:
         formatTime = now.strftime("%Y-%m-%d %H:%M")
         formatDate = now.strftime("%Y-%m-%d")
         formatHourMin = now.strftime("%H:%M")
-        print(formatHourMin)
         
         def callBrowser(self):
             ubuntu = False
